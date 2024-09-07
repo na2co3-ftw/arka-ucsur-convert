@@ -1,0 +1,58 @@
+body {
+    margin: 1.2rem 1rem 2rem;
+    padding: 0;
+    line-height: 1.44;
+    font-family: Arial, Helvetica, "Hiragino Sans", Meiryo, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    color: #222;
+}
+div, header, footer, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 45rem;
+}
+
+h1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+.checkbox-label {
+    margin-left: 2rem;
+}
+
+a:link {
+	color: #0a3;
+}
+a:visited {
+	color: #062;
+}
+a:active,
+a:focus {
+	color: #0af;
+}
+
+#arka, #unicode {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 0;
+    padding: 0.3em;
+    font-size: 150%;
+    overflow-wrap: break-word;
+}
+#arka {
+    font-family: "kardinal", sans-serif;
+}
+#unicode {
+    font-family: "Nishiki-teki";
+}

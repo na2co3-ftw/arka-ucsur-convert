@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>にしき的フォント(UCSUR) 幻字入力</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="content">
+            <h1>にしき的フォント(UCSUR) 幻字入力</h1>
+            <p>
+                Unicode私用領域に幻字が割り当てられている<a href="https://umihotaru.work/">にしき的フォント</a>で、幻字を入力するためのツールです。<br>
+                通常の方法で入力した文字を、対応するUnicode私用領域の文字に変換します。
+            </p>
+            <p>
+                「(a」のように入力すると、天秤詞(幼字)に変換されます。<br>
+                「[arka]」のように入力すると、幼字に変換されます。
+            </p>
+            <p>
+                入力:<br>
+                <textarea id="arka" cols="50" rows="8"></textarea>
+            </p>
+            <p>
+                ↓
+                <label class="checkbox-label">
+                    <input type="checkbox" id="legacy">伝統的な約物を使用する
+                </label>
+            </p>
+            <p>
+                出力:
+                <textarea id="unicode" cols="50" rows="8"></textarea>
+            </p>
+            <p>
+                GitHub: <a href="https://github.com/na2co3-ftw/arka-ucsur-convert" target="_blank" rel="noopener">na2co3-ftw/arka-ucsur-convert</a>
+            </p>
+        </div>
+        <script type="module" src="./script.ts"></script>
+    </body>
+</html>

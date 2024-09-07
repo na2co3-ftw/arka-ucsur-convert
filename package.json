@@ -1,0 +1,17 @@
+{
+  "name": "arka-ucsur-convert",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base /arka-ucsur-convert/",
+    "preview": "vite preview --base /arka-ucsur-convert/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.4.3"
+  }
+}
